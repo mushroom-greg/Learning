@@ -1,0 +1,164 @@
+*
+{
+    font-family: "Nunito Sans";
+}
+
+h1
+{
+    margin: 0;
+}
+
+html
+{
+    margin: 0;
+    height: 100%;
+}
+
+body
+{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+}
+
+a:visited
+{
+    color: rgba(107,107,107,0.5);
+}
+
+#header
+{
+    background-color: black;
+    color: white;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+}
+
+#headerLogo
+{
+    background-color: cornflowerblue;
+    margin: 0;
+    height: 5em;
+    width: 5em;
+}
+
+#headerTitle
+{
+    font-style: oblique;
+}
+
+#main
+{
+    padding-top: 10em;
+}
+
+#nav
+{
+    background-color: grey;
+    padding-top: 10em;
+    //float: left;
+    width: 20em;
+    height: 100%;
+}
+
+#navList
+{
+    //padding: 0;
+}
+
+.navCell
+{
+    background-color: darkgray;
+    border: solid 0.1em;
+    color: black;
+    display: block;
+}
+
+.funnyDiv
+{
+    background-color: rgba(107,107,107,0.5);
+    border-radius: 1em;
+    display: inline-block;
+    box-shadow: 0.5em 0.5em 0.75em deeppink;
+}
+
+.funny
+{
+    color: deeppink;
+    font-size: 1.25em;
+    font-style: italic;
+    border: deeppink 0.5em outset;
+    border-radius: 1em;
+    text-shadow: 0.25em -0.25em 0.25em deeppink;
+}
+
+#soja
+{
+    border-radius: 50px;
+}
+
+.imgInPara
+{
+    display: block;
+}
+
+.imgDesc
+{
+    text-decoration: overline;
+    font-size: 0.75em;
+    text-align: center;
+    font-style: oblique;
+}
+
+.outterList
+{
+    text-align: center;
+}
+
+.list
+{
+    background-color: rgba(100,194,235,1);
+    border-radius: 1em;
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 1em;
+    text-align: left;
+    border-right: rgba(0,0,0,0.5) solid 0.25em;
+}
+
+.list:active
+{
+    background-color: rgba(100,194,235,0.5);
+}
+
+.seriousList
+{
+    text-align: center;
+}
+
+#really
+{
+    display: inline-block;
+}
+
+#really:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+}
+
+.important
+{
+    color: deeppink;
+}
+
+/*
+@font-face {
+    font-family: "Nunito Sans";
+    src: url("../font/nunito-sans/NunitoSans-Black.ttf") format("ttf")
+}
+*/
