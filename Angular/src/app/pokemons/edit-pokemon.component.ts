@@ -8,16 +8,15 @@ import { PokemonsService } from './pokemons.service';
   templateUrl: '../templates/edit-pokemon.component.html'
 })
 export class EditPokemonComponent implements OnInit {
-
   pokemon: Pokemon = null;
 
   constructor(
     private route: ActivatedRoute,
-    private pokemonsService: PokemonsService) {}
+    private pokemonsService: PokemonsService
+  ) {}
 
   ngOnInit(): void {
     const id = +this.route.snapshot.params['id'];
     this.pokemon = this.pokemonsService.getPokemon(id);
   }
-
 }
