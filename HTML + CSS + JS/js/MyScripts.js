@@ -18,4 +18,5 @@ function levelHandler(level) {
     return (level);
 }
 
-levelHandler();
+//levelHandler();
+alert(document.title);
