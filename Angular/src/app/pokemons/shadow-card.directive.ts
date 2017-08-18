@@ -1,6 +1,8 @@
-import {Directive, ElementRef, HostListener, Renderer2} from "@angular/core";
+import { Directive, ElementRef, HostListener, Renderer2 } from '@angular/core';
 
-@Directive({ selector: '[appPkmnShadowCard]' })
+@Directive({
+  selector: '[appPkmnShadowCard]'
+})
 export class ShadowCardDirective {
   constructor(public elem: ElementRef, public renderer: Renderer2) {
     this.setBorder('#f5f5f5');
