@@ -19,12 +19,12 @@ export class DetailPokemonComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.forEach((params: Params) => {
       const id = +params['id'];
-      this.pokemon = this.pokemonsService.getPokemon(id);
+      this.pokemonsService.getPokemon(id).then(pokemon => this.pokemon = pokemon);
     });
   }
 
   goBack(): void {
-    this.router.navigate(['/pokemons']);
+    this.router.navigate(['/pokemon/all']);
   }
 
   goEdit(pokemon: Pokemon): void {

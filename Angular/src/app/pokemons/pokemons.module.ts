@@ -6,9 +6,13 @@ import { DetailPokemonComponent } from './detail-pokemon.component';
 import { ListPokemonComponent } from './list-pokemon.component';
 import { EditPokemonComponent } from './edit-pokemon.component';
 import { PokemonFormComponent } from './pokemon-form.component';
+import { PokemonSearchComponent } from './pokemon-search.component';
+import { LoaderComponent } from './loader.component';
 
+import { AuthGuard } from '../auth-guard.service';
 import { PokemonsRoutingModule } from './pokemons-routing.module';
 import { PokemonsService } from './pokemons.service';
+import { PokemonSearchService } from './pokemon-search.service';
 import { ShadowCardDirective } from './shadow-card.directive';
 import { PokemonTypeColorPipe } from './pokemon-type-color.pipe';
 
@@ -24,9 +28,15 @@ import { PokemonTypeColorPipe } from './pokemon-type-color.pipe';
     ListPokemonComponent,
     EditPokemonComponent,
     PokemonFormComponent,
+    PokemonSearchComponent,
+    LoaderComponent,
     ShadowCardDirective,
     PokemonTypeColorPipe
   ],
-  providers: [PokemonsService]
+  providers: [
+    PokemonsService,
+    PokemonSearchService,
+    AuthGuard
+  ]
 })
 export class PokemonsModule {}
