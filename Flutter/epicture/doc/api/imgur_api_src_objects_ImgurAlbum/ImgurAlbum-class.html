@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="API docs for the ImgurAlbum class from the ImgurAlbum library, for the Dart programming language.">
+  <title>ImgurAlbum class - ImgurAlbum library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">epicture</a></li>
+    <li><a href="imgur_api_src_objects_ImgurAlbum/imgur_api_src_objects_ImgurAlbum-library.html">ImgurAlbum</a></li>
+    <li class="self-crumb">ImgurAlbum class</li>
+  </ol>
+  <div class="self-name">ImgurAlbum</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <h5>ImgurAlbum library</h5>
+    <ol>
+      <li class="section-title"><a href="imgur_api_src_objects_ImgurAlbum/imgur_api_src_objects_ImgurAlbum-library.html#classes">Classes</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum-class.html">ImgurAlbum</a></li>
+    
+    
+    
+    
+    
+    
+    
+    </ol>
+  </div>
+
+  <div class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <h1>ImgurAlbum class </h1>
+
+    <section class="desc markdown">
+      <p>Represents user album</p>
+    </section>
+    
+    <section>
+      <dl class="dl-horizontal">
+
+
+
+        <dt>Implementers</dt>
+        <dd><ul class="comma-separated clazz-relationships">
+          <li><a href="imgur_api_src_objects_ImgurGallery/ImgurGallery-class.html">ImgurGallery</a></li>
+        </ul></dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="ImgurAlbum" class="callable">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/ImgurAlbum.html">ImgurAlbum</a></span><span class="signature">(<span class="parameter" id="-param-raw"><span class="type-annotation">Map<span class="signature">&lt;<wbr><span class="type-parameter">String</span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">raw</span>, </span> <span class="parameter" id="-param-_http"><span class="type-annotation"><a href="imgur_api_src_util_HttpWrapper/HttpWrapper-class.html">HttpWrapper</a></span> <span class="parameter-name">_http</span></span>)</span>
+        </dt>
+        <dd>
+          
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="accountId" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/accountId.html">accountId</a></span>
+          <span class="signature">&#8596; int</span> 
+        </dt>
+        <dd>
+          The account ID or null if it's anonymous.
+          <div class="features">read / write</div>
+</dd>
+        <dt id="accountUrl" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/accountUrl.html">accountUrl</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          The account username or null if it's anonymous.
+          <div class="features">read / write</div>
+</dd>
+        <dt id="cover" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/cover.html">cover</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          The ID of the album cover image
+          <div class="features">read / write</div>
+</dd>
+        <dt id="coverHeight" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/coverHeight.html">coverHeight</a></span>
+          <span class="signature">&#8596; int</span> 
+        </dt>
+        <dd>
+          The height, in pixels, of the album cover image
+          <div class="features">read / write</div>
+</dd>
+        <dt id="coverWidth" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/coverWidth.html">coverWidth</a></span>
+          <span class="signature">&#8596; int</span> 
+        </dt>
+        <dd>
+          The width, in pixels, of the album cover image
+          <div class="features">read / write</div>
+</dd>
+        <dt id="datetime" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/datetime.html">datetime</a></span>
+          <span class="signature">&#8596; int</span> 
+        </dt>
+        <dd>
+          Time inserted into the gallery, epoch time
+          <div class="features">read / write</div>
+</dd>
+        <dt id="deleteHash" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/deleteHash.html">deleteHash</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          OPTIONAL, the deletehash, if you're logged in as the album owner
+          <div class="features">read / write</div>
+</dd>
+        <dt id="description" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/description.html">description</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          The description of the album in the gallery
+          <div class="features">read / write</div>
+</dd>
+        <dt id="favorite" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/favorite.html">favorite</a></span>
+          <span class="signature">&#8596; bool</span> 
+        </dt>
+        <dd>
+          Indicates if the current user favorited the image. Defaults to false if not signed in.
+          <div class="features">read / write</div>
+</dd>
+        <dt id="id" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/id.html">id</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          The ID for the album
+          <div class="features">read / write</div>
+</dd>
+        <dt id="images" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/images.html">images</a></span>
+          <span class="signature">&#8596; Map<span class="signature">&lt;<wbr><span class="type-parameter">String</span>, <span class="type-parameter"><a href="imgur_api_src_objects_ImgurImage/ImgurImage-class.html">ImgurImage</a></span>&gt;</span></span> 
+        </dt>
+        <dd>
+          Array of Images	An array of all the images in the album (only available when requesting the direct album)
+          <div class="features">read / write</div>
+</dd>
+        <dt id="imagesCount" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/imagesCount.html">imagesCount</a></span>
+          <span class="signature">&#8596; int</span> 
+        </dt>
+        <dd>
+          The total number of images in the album
+          <div class="features">read / write</div>
+</dd>
+        <dt id="inGallery" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/inGallery.html">inGallery</a></span>
+          <span class="signature">&#8596; bool</span> 
+        </dt>
+        <dd>
+          True if the image has been submitted to the gallery, false if otherwise.
+          <div class="features">read / write</div>
+</dd>
+        <dt id="layout" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/layout.html">layout</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          The view layout of the album.
+          <div class="features">read / write</div>
+</dd>
+        <dt id="link" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/link.html">link</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          The URL link to the album
+          <div class="features">read / write</div>
+</dd>
+        <dt id="nsfw" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/nsfw.html">nsfw</a></span>
+          <span class="signature">&#8596; bool</span> 
+        </dt>
+        <dd>
+          Indicates if the image has been marked as nsfw or not. Defaults to null if information is not available.
+          <div class="features">read / write</div>
+</dd>
+        <dt id="order" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/order.html">order</a></span>
+          <span class="signature">&#8596; int</span> 
+        </dt>
+        <dd>
+          Order number of the album on the user's album page (defaults to 0 if their albums haven't been reordered)
+          <div class="features">read / write</div>
+</dd>
+        <dt id="privacy" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/privacy.html">privacy</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          The privacy level of the album, you can only view public if not logged in as album owner
+          <div class="features">read / write</div>
+</dd>
+        <dt id="raw" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/raw.html">raw</a></span>
+          <span class="signature">&#8596; Map<span class="signature">&lt;<wbr><span class="type-parameter">String</span>, <span class="type-parameter">dynamic</span>&gt;</span></span> 
+        </dt>
+        <dd>
+          Raw response returned by API
+          <div class="features">read / write</div>
+</dd>
+        <dt id="section" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/section.html">section</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          If the image has been categorized by our backend then this will contain the section the image belongs in. (funny, cats, adviceanimals, wtf, etc)
+          <div class="features">read / write</div>
+</dd>
+        <dt id="title" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/title.html">title</a></span>
+          <span class="signature">&#8596; String</span> 
+        </dt>
+        <dd>
+          The title of the album in the gallery
+          <div class="features">read / write</div>
+</dd>
+        <dt id="views" class="property">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/views.html">views</a></span>
+          <span class="signature">&#8596; int</span> 
+        </dt>
+        <dd>
+          The number of album views
+          <div class="features">read / write</div>
+</dd>
+        <dt id="hashCode" class="property inherited">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/hashCode.html">hashCode</a></span>
+          <span class="signature">&#8594; int</span> 
+        </dt>
+        <dd class="inherited">
+          The hash code for this object. <a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/hashCode.html">[...]</a>
+          <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="runtimeType" class="property inherited">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/runtimeType.html">runtimeType</a></span>
+          <span class="signature">&#8594; Type</span> 
+        </dt>
+        <dd class="inherited">
+          A representation of the runtime type of the object.
+          <div class="features">read-only, inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="getImage" class="callable">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/getImage.html">getImage</a></span><span class="signature">(<wbr><span class="parameter" id="getImage-param-id"><span class="type-annotation">String</span> <span class="parameter-name">id</span></span>)
+            <span class="returntype parameter">&#8594; Future<span class="signature">&lt;<wbr><span class="type-parameter"><a href="imgur_api_src_objects_ImgurImage/ImgurImage-class.html">ImgurImage</a></span>&gt;</span></span>
+          </span>
+          </dt>
+        <dd>
+          Gets image located in this album
+          
+</dd>
+        <dt id="noSuchMethod" class="callable inherited">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation">Invocation</span> <span class="parameter-name">invocation</span></span>)
+            <span class="returntype parameter">&#8594; dynamic</span>
+          </span>
+          </dt>
+        <dd class="inherited">
+          Invoked when a non-existent method or property is accessed. <a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/noSuchMethod.html">[...]</a>
+          <div class="features">inherited</div>
+</dd>
+        <dt id="toString" class="callable inherited">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/toString.html">toString</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; String</span>
+          </span>
+          </dt>
+        <dd class="inherited">
+          Returns a string representation of this object.
+          <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+          <span class="name"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation">dynamic</span> <span class="parameter-name">other</span></span>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+          </dt>
+        <dd class="inherited">
+          The equality operator. <a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/operator_equals.html">[...]</a>
+          <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <ol>
+      <li class="section-title"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum-class.html#constructors">Constructors</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/ImgurAlbum.html">ImgurAlbum</a></li>
+    
+      <li class="section-title">
+        <a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum-class.html#instance-properties">Properties</a>
+      </li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/accountId.html">accountId</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/accountUrl.html">accountUrl</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/cover.html">cover</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/coverHeight.html">coverHeight</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/coverWidth.html">coverWidth</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/datetime.html">datetime</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/deleteHash.html">deleteHash</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/description.html">description</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/favorite.html">favorite</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/id.html">id</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/images.html">images</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/imagesCount.html">imagesCount</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/inGallery.html">inGallery</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/layout.html">layout</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/link.html">link</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/nsfw.html">nsfw</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/order.html">order</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/privacy.html">privacy</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/raw.html">raw</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/section.html">section</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/title.html">title</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/views.html">views</a></li>
+      <li class="inherited"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/hashCode.html">hashCode</a></li>
+      <li class="inherited"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/runtimeType.html">runtimeType</a></li>
+    
+      <li class="section-title"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum-class.html#instance-methods">Methods</a></li>
+      <li><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/getImage.html">getImage</a></li>
+      <li class="inherited"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/noSuchMethod.html">noSuchMethod</a></li>
+      <li class="inherited"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/toString.html">toString</a></li>
+    
+      <li class="section-title inherited"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum-class.html#operators">Operators</a></li>
+      <li class="inherited"><a href="imgur_api_src_objects_ImgurAlbum/ImgurAlbum/operator_equals.html">operator ==</a></li>
+    
+    
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    epicture 1.0.0+1
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

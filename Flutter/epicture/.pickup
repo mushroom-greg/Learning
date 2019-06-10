@@ -1,0 +1,41 @@
+Repo: ramassage-tek@git.epitech.eu:/brandon.welsch@epitech.eu/DEV_epicture_2018
+City: STG
+Status: Success
+Logs: [0/3] OK. 
+Date: Mon, 31 Dec 2018 21:39:17
+Remote Branches:
+  origin/HEAD -> origin/master
+  origin/master
+Local Branches:
+* master
+Git graph && Last commit:
+* commit e2c142df641142d01619f07c1d4d2f9ac89e5656
+| Author: Brandon Welsch <dev@brandon-welsch.eu>
+| Date:   Tue Nov 20 18:16:10 2018 +0100
+| 
+|     version 1.1.0
+|   
+*   commit 6f9f5edaa74a3bd61fd7abb829a222a0426fea7d
+|\  Merge: 76d527e 6c6761f
+| | Author: Brandon Welsch <dev@brandon-welsch.eu>
+| | Date:   Tue Nov 20 18:13:19 2018 +0100
+| | 
+| |     Merge remote-tracking branch 'origin/master'
+| | 
+| * commit 6c6761f2d2ef5bdd391964221be3c1b5e54dd6f6
+| | Author: jeremie <jeremie.streit@epitech.eu>
+| | Date:   Mon Nov 19 00:05:32 2018 +0100
+| | 
+| |     [+] Adding a little bit of doc
+| | 
+* | commit 76d527ebd3f9c358766f139cbdbaa6d43aff53af
+| | Author: Brandon Welsch <dev@brandon-welsch.eu>
+| | Date:   Tue Nov 20 18:01:37 2018 +0100
+| | 
+| |     Added Camera permissions and set minSdkVersion to 24
+| | 
+* | commit b220da6005d9553cafe159ec09373d69e93ca0cc
+|/  Author: Brandon Welsch <dev@brandon-welsch.eu>
+|   Date:   Tue Nov 20 15:37:42 2018 +0100
+|   
+|       Add android play store deploy

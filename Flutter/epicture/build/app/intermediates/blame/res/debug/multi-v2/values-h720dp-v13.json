@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/greg/Projects/Learning/Flutter/epicture/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/greg/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ab254a3c3ee94df022ac79380493675f/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
